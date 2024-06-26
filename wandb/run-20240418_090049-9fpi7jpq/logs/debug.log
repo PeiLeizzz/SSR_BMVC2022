@@ -1,0 +1,29 @@
+2024-04-18 09:00:49,575 INFO    MainThread:1497 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_setup.py:_flush():76] Configure stats pid to 1497
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_setup.py:_flush():76] Loading settings from /aia/peilei/.config/wandb/settings
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_setup.py:_flush():76] Loading settings from /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/settings
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main_cifar.py', 'program_abspath': '/aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/main_cifar.py', 'program': '/aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/main_cifar.py'}
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_init.py:_log_setup():521] Logging user logs to /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/logs/debug.log
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_init.py:_log_setup():522] Logging internal logs to /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/logs/debug-internal.log
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_init.py:init():561] calling init triggers
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {}
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_init.py:init():611] starting backend
+2024-04-18 09:00:49,576 INFO    MainThread:1497 [wandb_init.py:init():615] setting up manager
+2024-04-18 09:00:49,579 INFO    MainThread:1497 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-18 09:00:49,592 INFO    MainThread:1497 [wandb_init.py:init():623] backend started and connected
+2024-04-18 09:00:49,599 INFO    MainThread:1497 [wandb_init.py:init():715] updated telemetry
+2024-04-18 09:00:49,625 INFO    MainThread:1497 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-18 09:00:51,073 INFO    MainThread:1497 [wandb_run.py:_on_init():2357] communicating current version
+2024-04-18 09:00:51,959 INFO    MainThread:1497 [wandb_run.py:_on_init():2366] got version response 
+2024-04-18 09:00:51,960 INFO    MainThread:1497 [wandb_init.py:init():799] starting run threads in backend
+2024-04-18 09:01:15,507 INFO    MainThread:1497 [wandb_run.py:_console_start():2335] atexit reg
+2024-04-18 09:01:15,508 INFO    MainThread:1497 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-04-18 09:01:15,509 INFO    MainThread:1497 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-04-18 09:01:15,509 INFO    MainThread:1497 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-04-18 09:01:15,511 INFO    MainThread:1497 [wandb_init.py:init():842] run started, returning control to user process
+2024-04-18 09:01:15,513 INFO    MainThread:1497 [wandb_run.py:_config_callback():1347] config_cb None None {'dataset_path': '../../paper_dataset', 'noisy_dataset_path': '../../paper_dataset', 'dataset': 'cifar100', 'noisy_dataset': 'cifar100', 'noise_mode': 'sym', 'noise_ratio': 0.9, 'open_ratio': 0.0, 'theta_s': 1.0, 'theta_r': 0.8, 'lambda_fc': 1.0, 'k': 200, 'model': 'PreResNet18', 'epochs': 300, 'batch_size': 128, 'lr': 0.02, 'momentum': 0.9, 'weight_decay': 0.0005, 'seed': 3047, 'gpuid': '0', 'entity': None, 'run_path': 'Dataset(cifar100_0.9_0.0_sym)_Model(0.8_1.0)'}

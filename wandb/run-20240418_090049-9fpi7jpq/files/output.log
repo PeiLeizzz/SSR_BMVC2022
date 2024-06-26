@@ -1,0 +1,125 @@
+
+Statistics of synthetic noisy CIFAR dataset:  num of clean samples:  5000  num of closed-set noise:  45000  num of open-set noise:  0
+save noise to cifar100_0.9_0.0_sym_noise.json ...
+Train args:
+ Namespace(dataset_path='../../paper_dataset', noisy_dataset_path='../../paper_dataset', dataset='cifar100', noisy_dataset='cifar100', noise_mode='sym', noise_ratio=0.9, open_ratio=0.0, theta_s=1.0, theta_r=0.8, lambda_fc=1.0, k=200, model='PreResNet18', epochs=300, batch_size=128, lr=0.02, momentum=0.9, weight_decay=0.0005, seed=3047, gpuid='0', entity=None, run_path='Dataset(cifar100_0.9_0.0_sym)_Model(0.8_1.0)', num_classes=100, image_size=32)
+
+
+
+
+
+
+Feature extracting: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [00:18<00:00, 21.69it/s]
+Prediction track: mean: 0.010591051541268826 max: 0.011223362758755684 min: 0.010404235683381557
+Epoch [0/300] selection: theta_s:1.0 TP: 382 FP:1307 TN:43215 FN:5096
+Epoch [0/300] relabelling:  correct: 0 original: 0 total: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Train epoch 0 LR:0.02 Labeled loss: 4.4651 Unlabeled loss: -0.7298: 100%|█████████████████████████████████████████████████████████| 390/390 [00:48<00:00,  7.98it/s]
+Test epoch 0: Accuracy#0.0658: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:01<00:00, 41.04it/s]
+Feature extracting:  10%|███████████                                                                                               | 41/391 [00:01<00:08, 39.85it/s]
+
+
+
+
+Feature extracting: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [00:08<00:00, 44.52it/s]
+Prediction track: mean: 0.07576984167098999 max: 0.9976804256439209 min: 0.01577446050941944
+Epoch [1/300] selection: theta_s:1.0 TP: 795 FP:1196 TN:43300 FN:4709
+Epoch [1/300] relabelling:  correct: 36 original: 10 total: 67
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Train epoch 1 LR:0.01999946265978202 Labeled loss: 4.1950 Unlabeled loss: -0.7757: 100%|██████████████████████████████████████████| 390/390 [00:37<00:00, 10.33it/s]
+Test epoch 1: Accuracy#0.1103: 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 79/79 [00:01<00:00, 60.43it/s]
+Feature extracting:   3%|███▌                                                                                                      | 13/391 [00:00<00:13, 27.21it/s]
+
+
+
+
+Feature extracting:  91%|███████████████████████████████████████████████████████████████████████████████████████████████▊         | 357/391 [00:08<00:00, 43.12it/s]
+Feature extracting: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 391/391 [00:08<00:00, 43.74it/s]
+Train epoch 2 LR:0.019997850698053488 Labeled loss: 4.3547 Unlabeled loss: -0.7729:   0%|                                           | 1/390 [00:00<03:17,  1.97it/s]
+Epoch [2/300] selection: theta_s:1.0 TP: 995 FP:1096 TN:43340 FN:4569
+
+
+
+
+
+
+
+
+
+
+
+
+Train epoch 2 LR:0.019997850698053488 Labeled loss: 3.9799 Unlabeled loss: -0.7982:  71%|█████████████████████████████            | 277/390 [00:26<00:10, 10.33it/s]Exception in thread Thread-11:
+Traceback (most recent call last):
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/threading.py", line 950, in _bootstrap_inner
+    self.run()
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/threading.py", line 888, in run
+    self._target(*self._args, **self._kwargs)
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/site-packages/torch/utils/data/_utils/pin_memory.py", line 51, in _pin_memory_loop
+    do_one_step()
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/site-packages/torch/utils/data/_utils/pin_memory.py", line 28, in do_one_step
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/site-packages/torch/multiprocessing/reductions.py", line 307, in rebuild_storage_fd
+    fd = df.detach()
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/multiprocessing/resource_sharer.py", line 86, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/multiprocessing/connection.py", line 513, in Client
+    answer_challenge(c, authkey)
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/multiprocessing/connection.py", line 757, in answer_challenge
+    message = connection.recv_bytes(256)         # reject large message
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/multiprocessing/connection.py", line 221, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/multiprocessing/connection.py", line 419, in _recv_bytes
+    buf = self._recv(4)
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/multiprocessing/connection.py", line 388, in _recv
+    raise EOFError
+EOFError
+Train epoch 2 LR:0.019997850698053488 Labeled loss: 3.9799 Unlabeled loss: -0.7982:  71%|█████████████████████████████▏           | 278/390 [00:26<00:10, 10.39it/s]
+Traceback (most recent call last):
+  File "/aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/main_cifar.py", line 311, in <module>
+    main()
+  File "/aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/main_cifar.py", line 282, in main
+    train(labeled_loader, modified_label, all_loader, encoder, classifier, proj_head, pred_head, optimizer, i, args)
+  File "/aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/main_cifar.py", line 64, in train
+    inputs_x1, inputs_x2 = inputs_x1.cuda(), inputs_x2.cuda()
+KeyboardInterrupt

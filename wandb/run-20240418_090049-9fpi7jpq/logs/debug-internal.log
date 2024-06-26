@@ -1,0 +1,357 @@
+2024-04-18 09:00:49,583 INFO    StreamThr :19717 [internal.py:wandb_internal():86] W&B internal server running at pid: 19717, started at: 2024-04-18 09:00:49.581499
+2024-04-18 09:00:49,585 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status
+2024-04-18 09:00:49,600 INFO    WriterThread:19717 [datastore.py:open_for_write():87] open: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/run-9fpi7jpq.wandb
+2024-04-18 09:00:49,601 DEBUG   SenderThread:19717 [sender.py:send():379] send: header
+2024-04-18 09:00:49,627 DEBUG   SenderThread:19717 [sender.py:send():379] send: run
+2024-04-18 09:00:51,058 INFO    SenderThread:19717 [dir_watcher.py:__init__():211] watching files in: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files
+2024-04-18 09:00:51,058 INFO    SenderThread:19717 [sender.py:_start_run_threads():1124] run started: 9fpi7jpq with start time 1713430849.593359
+2024-04-18 09:00:51,074 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: check_version
+2024-04-18 09:00:51,075 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: check_version
+2024-04-18 09:00:51,966 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: run_start
+2024-04-18 09:00:51,985 DEBUG   HandlerThread:19717 [system_info.py:__init__():26] System info init
+2024-04-18 09:00:51,985 DEBUG   HandlerThread:19717 [system_info.py:__init__():41] System info init done
+2024-04-18 09:00:51,985 INFO    HandlerThread:19717 [system_monitor.py:start():194] Starting system monitor
+2024-04-18 09:00:51,985 INFO    SystemMonitor:19717 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-18 09:00:51,985 INFO    HandlerThread:19717 [system_monitor.py:probe():214] Collecting system info
+2024-04-18 09:00:51,986 INFO    SystemMonitor:19717 [interfaces.py:start():190] Started cpu monitoring
+2024-04-18 09:00:51,987 INFO    SystemMonitor:19717 [interfaces.py:start():190] Started disk monitoring
+2024-04-18 09:00:51,989 INFO    SystemMonitor:19717 [interfaces.py:start():190] Started gpu monitoring
+2024-04-18 09:00:51,990 INFO    SystemMonitor:19717 [interfaces.py:start():190] Started memory monitoring
+2024-04-18 09:00:51,994 INFO    SystemMonitor:19717 [interfaces.py:start():190] Started network monitoring
+2024-04-18 09:00:52,038 DEBUG   HandlerThread:19717 [system_info.py:probe():150] Probing system
+2024-04-18 09:00:52,046 DEBUG   HandlerThread:19717 [system_info.py:_probe_git():135] Probing git
+2024-04-18 09:00:52,072 DEBUG   HandlerThread:19717 [system_info.py:_probe_git():143] Probing git done
+2024-04-18 09:00:52,072 DEBUG   HandlerThread:19717 [system_info.py:probe():198] Probing system done
+2024-04-18 09:00:52,072 DEBUG   HandlerThread:19717 [system_monitor.py:probe():223] {'os': 'Linux-4.15.0-197-generic-x86_64-with-glibc2.27', 'python': '3.9.0', 'heartbeatAt': '2024-04-18T09:00:52.038409', 'startedAt': '2024-04-18T09:00:49.485736', 'docker': None, 'cuda': None, 'args': ('--theta_r', '0.8', '--noise_mode', 'sym', '--noise_ratio', '0.9', '--dataset', 'cifar100'), 'state': 'running', 'program': '/aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/main_cifar.py', 'codePathLocal': 'main_cifar.py', 'codePath': 'main_cifar.py', 'git': {'remote': 'https://github.com/MrChenFeng/SSR_BMVC2022.git', 'commit': '9583db8d459f5c288cbaeb7b7d03e049c5b65b39'}, 'email': '714838284@qq.com', 'root': '/aia/peilei/graduation-focus/paper_code/SSR_BMVC2022', 'host': 'eagle-server', 'username': 'peilei', 'executable': '/aia/peilei/software/anaconda3/envs/python39/bin/python', 'cpu_count': 28, 'cpu_count_logical': 56, 'cpu_freq': {'current': 2258.335267857142, 'min': 1200.0, 'max': 3300.0}, 'cpu_freq_per_core': [{'current': 1200.055, 'min': 1200.0, 'max': 3300.0}, {'current': 1399.972, 'min': 1200.0, 'max': 3300.0}, {'current': 1200.073, 'min': 1200.0, 'max': 3300.0}, {'current': 1200.1, 'min': 1200.0, 'max': 3300.0}, {'current': 2899.861, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.88, 'min': 1200.0, 'max': 3300.0}, {'current': 2899.885, 'min': 1200.0, 'max': 3300.0}, {'current': 1525.442, 'min': 1200.0, 'max': 3300.0}, {'current': 1199.992, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.918, 'min': 1200.0, 'max': 3300.0}, {'current': 1841.62, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.883, 'min': 1200.0, 'max': 3300.0}, {'current': 1531.34, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.883, 'min': 1200.0, 'max': 3300.0}, {'current': 1201.355, 'min': 1200.0, 'max': 3300.0}, {'current': 1398.86, 'min': 1200.0, 'max': 3300.0}, {'current': 1200.106, 'min': 1200.0, 'max': 3300.0}, {'current': 1319.381, 'min': 1200.0, 'max': 3300.0}, {'current': 1809.431, 'min': 1200.0, 'max': 3300.0}, {'current': 1273.409, 'min': 1200.0, 'max': 3300.0}, {'current': 1250.569, 'min': 1200.0, 'max': 3300.0}, {'current': 1199.976, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.897, 'min': 1200.0, 'max': 3300.0}, {'current': 1880.657, 'min': 1200.0, 'max': 3300.0}, {'current': 1200.057, 'min': 1200.0, 'max': 3300.0}, {'current': 1571.087, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.94, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.883, 'min': 1200.0, 'max': 3300.0}, {'current': 1199.969, 'min': 1200.0, 'max': 3300.0}, {'current': 1399.958, 'min': 1200.0, 'max': 3300.0}, {'current': 1200.03, 'min': 1200.0, 'max': 3300.0}, {'current': 1199.967, 'min': 1200.0, 'max': 3300.0}, {'current': 2899.858, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.881, 'min': 1200.0, 'max': 3300.0}, {'current': 2899.858, 'min': 1200.0, 'max': 3300.0}, {'current': 1466.761, 'min': 1200.0, 'max': 3300.0}, {'current': 1199.959, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.882, 'min': 1200.0, 'max': 3300.0}, {'current': 1878.977, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.898, 'min': 1200.0, 'max': 3300.0}, {'current': 1583.155, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.762, 'min': 1200.0, 'max': 3300.0}, {'current': 1199.964, 'min': 1200.0, 'max': 3300.0}, {'current': 1316.726, 'min': 1200.0, 'max': 3300.0}, {'current': 1199.956, 'min': 1200.0, 'max': 3300.0}, {'current': 1286.546, 'min': 1200.0, 'max': 3300.0}, {'current': 2081.728, 'min': 1200.0, 'max': 3300.0}, {'current': 1267.228, 'min': 1200.0, 'max': 3300.0}, {'current': 1382.852, 'min': 1200.0, 'max': 3300.0}, {'current': 1199.955, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.882, 'min': 1200.0, 'max': 3300.0}, {'current': 1954.895, 'min': 1200.0, 'max': 3300.0}, {'current': 1199.981, 'min': 1200.0, 'max': 3300.0}, {'current': 1630.238, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.882, 'min': 1200.0, 'max': 3300.0}, {'current': 2399.88, 'min': 1200.0, 'max': 3300.0}], 'disk': {'/': {'total': 1757.885139465332, 'used': 1271.3319778442383}}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 8, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}, {'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25769803776}], 'memory': {'total': 251.79638671875}}
+2024-04-18 09:00:52,073 INFO    HandlerThread:19717 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-18 09:00:52,073 INFO    HandlerThread:19717 [system_monitor.py:probe():227] Publishing system info
+2024-04-18 09:00:52,073 DEBUG   HandlerThread:19717 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-04-18 09:00:53,062 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_created():271] file/dir created: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/conda-environment.yaml
+2024-04-18 09:01:07,145 ERROR   HandlerThread:19717 [system_info.py:_save_conda():221] Error saving conda packages: Command '['conda', 'env', 'export']' timed out after 15 seconds
+Traceback (most recent call last):
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/site-packages/wandb/sdk/internal/system/system_info.py", line 214, in _save_conda
+    subprocess.call(
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/subprocess.py", line 351, in call
+    return p.wait(timeout=timeout)
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/subprocess.py", line 1185, in wait
+    return self._wait(timeout=timeout)
+  File "/aia/peilei/software/anaconda3/envs/python39/lib/python3.9/subprocess.py", line 1907, in _wait
+    raise TimeoutExpired(self.args, timeout)
+subprocess.TimeoutExpired: Command '['conda', 'env', 'export']' timed out after 15 seconds
+2024-04-18 09:01:07,184 DEBUG   HandlerThread:19717 [system_info.py:_save_conda():222] Saving conda packages done
+2024-04-18 09:01:07,186 INFO    HandlerThread:19717 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-18 09:01:07,522 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:01:07,522 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-18 09:01:07,522 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:01:07,523 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-18 09:01:07,523 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:01:07,524 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: keepalive
+2024-04-18 09:01:07,524 DEBUG   SenderThread:19717 [sender.py:send():379] send: files
+2024-04-18 09:01:07,524 INFO    SenderThread:19717 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-18 09:01:08,065 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_created():271] file/dir created: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/wandb-metadata.json
+2024-04-18 09:01:08,594 INFO    wandb-upload_0:19717 [upload_job.py:push():131] Uploaded file /tmp/tmpbk3pbkewwandb/pv3up9dm-wandb-metadata.json
+2024-04-18 09:01:10,526 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:01:15,505 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-18 09:01:15,506 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: python_packages
+2024-04-18 09:01:15,511 DEBUG   SenderThread:19717 [sender.py:send():379] send: telemetry
+2024-04-18 09:01:15,515 DEBUG   SenderThread:19717 [sender.py:send():379] send: config
+2024-04-18 09:01:15,516 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:01:15,517 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:01:15,540 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:01:15,816 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:01:16,070 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_created():271] file/dir created: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/requirements.txt
+2024-04-18 09:01:19,071 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_created():271] file/dir created: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:01:21,073 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:01:21,684 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:01:22,074 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/config.yaml
+2024-04-18 09:01:26,978 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:01:30,632 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:01:30,633 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:01:30,675 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:01:32,012 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:01:37,013 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:01:42,014 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:01:45,088 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:01:45,518 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:01:45,519 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:01:45,525 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:01:47,890 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:01:49,090 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:01:51,090 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:01:51,994 DEBUG   SystemMonitor:19717 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-18 09:01:51,998 DEBUG   SenderThread:19717 [sender.py:send():379] send: stats
+2024-04-18 09:01:53,000 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:01:58,117 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:01:59,095 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:00,515 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:02:00,516 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:02:00,521 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:02:01,096 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:03,097 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:03,162 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:02:05,098 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:07,099 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:08,345 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:02:09,100 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:11,101 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:13,602 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:02:15,204 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 09:02:15,206 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 09:02:15,207 DEBUG   SenderThread:19717 [sender.py:send():379] send: history
+2024-04-18 09:02:15,209 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: summary_record
+2024-04-18 09:02:15,210 INFO    SenderThread:19717 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-18 09:02:15,210 DEBUG   SenderThread:19717 [sender.py:send():379] send: history
+2024-04-18 09:02:15,210 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: summary_record
+2024-04-18 09:02:15,211 INFO    SenderThread:19717 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-18 09:02:15,516 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:02:15,517 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:02:15,523 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:02:16,104 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_created():271] file/dir created: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/wandb-summary.json
+2024-04-18 09:02:17,104 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:19,044 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:02:19,105 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:21,106 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:22,134 DEBUG   SenderThread:19717 [sender.py:send():379] send: stats
+2024-04-18 09:02:24,137 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:02:27,113 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:29,116 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:29,195 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:02:30,517 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:02:30,518 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:02:30,522 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:02:31,119 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:33,121 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:34,196 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:02:35,124 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:37,126 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:39,128 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:39,311 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:02:41,130 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:43,132 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:44,342 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:02:45,137 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:45,516 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:02:45,517 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:02:45,521 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:02:47,138 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:49,139 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:49,370 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:02:51,140 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:52,006 DEBUG   SenderThread:19717 [sender.py:send():379] send: stats
+2024-04-18 09:02:53,141 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:54,403 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:02:55,143 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:57,144 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:59,145 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:02:59,480 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:03:00,516 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:03:00,516 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:03:00,520 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:03:01,146 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:03,148 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:04,553 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:03:04,620 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 09:03:04,621 DEBUG   SenderThread:19717 [sender.py:send():379] send: history
+2024-04-18 09:03:04,621 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: summary_record
+2024-04-18 09:03:04,622 INFO    SenderThread:19717 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-18 09:03:05,149 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:05,149 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/wandb-summary.json
+2024-04-18 09:03:06,673 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 09:03:06,675 DEBUG   SenderThread:19717 [sender.py:send():379] send: history
+2024-04-18 09:03:06,675 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: summary_record
+2024-04-18 09:03:06,676 INFO    SenderThread:19717 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-18 09:03:07,150 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:07,151 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/wandb-summary.json
+2024-04-18 09:03:09,151 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:09,699 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:03:11,153 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:13,154 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:14,739 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:03:15,155 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:15,516 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:03:15,517 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:03:15,521 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:03:15,996 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 09:03:15,997 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 09:03:15,998 DEBUG   SenderThread:19717 [sender.py:send():379] send: history
+2024-04-18 09:03:15,999 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: summary_record
+2024-04-18 09:03:16,000 INFO    SenderThread:19717 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-18 09:03:16,001 DEBUG   SenderThread:19717 [sender.py:send():379] send: history
+2024-04-18 09:03:16,001 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: summary_record
+2024-04-18 09:03:16,001 INFO    SenderThread:19717 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-18 09:03:16,155 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/wandb-summary.json
+2024-04-18 09:03:17,156 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:19,157 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:19,740 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:03:21,158 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:22,010 DEBUG   SenderThread:19717 [sender.py:send():379] send: stats
+2024-04-18 09:03:23,159 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:24,751 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:03:25,160 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:27,161 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:29,162 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:29,796 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:03:30,516 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:03:30,516 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:03:30,520 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:03:31,163 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:33,164 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:35,074 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:03:35,165 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:37,166 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:39,167 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:40,090 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:03:41,168 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:43,169 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:45,124 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:03:45,170 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:45,516 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:03:45,517 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:03:45,520 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:03:47,175 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:49,175 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:50,208 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:03:51,176 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:52,013 DEBUG   SenderThread:19717 [sender.py:send():379] send: stats
+2024-04-18 09:03:53,177 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:53,989 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 09:03:53,990 DEBUG   SenderThread:19717 [sender.py:send():379] send: history
+2024-04-18 09:03:53,990 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: summary_record
+2024-04-18 09:03:53,991 INFO    SenderThread:19717 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-18 09:03:54,178 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/wandb-summary.json
+2024-04-18 09:03:55,178 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:55,217 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:03:55,492 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 09:03:55,493 DEBUG   SenderThread:19717 [sender.py:send():379] send: history
+2024-04-18 09:03:55,494 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: summary_record
+2024-04-18 09:03:55,494 INFO    SenderThread:19717 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-18 09:03:56,179 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/wandb-summary.json
+2024-04-18 09:03:57,179 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:03:59,180 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:00,223 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:04:00,516 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:04:00,517 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:04:00,521 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:04:01,181 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:03,183 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:05,118 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 09:04:05,119 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-18 09:04:05,120 DEBUG   SenderThread:19717 [sender.py:send():379] send: history
+2024-04-18 09:04:05,121 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: summary_record
+2024-04-18 09:04:05,122 INFO    SenderThread:19717 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-18 09:04:05,123 DEBUG   SenderThread:19717 [sender.py:send():379] send: history
+2024-04-18 09:04:05,123 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: summary_record
+2024-04-18 09:04:05,123 INFO    SenderThread:19717 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-18 09:04:05,184 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:05,184 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/wandb-summary.json
+2024-04-18 09:04:05,326 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:04:07,184 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:09,186 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:10,349 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:04:11,186 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:13,188 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:15,189 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:15,410 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:04:15,517 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:04:15,518 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:04:15,522 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:04:17,198 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:19,199 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:20,418 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:04:21,200 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:22,016 DEBUG   SenderThread:19717 [sender.py:send():379] send: stats
+2024-04-18 09:04:23,201 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:25,202 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:25,445 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:04:27,203 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:29,204 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:30,517 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-18 09:04:30,518 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: stop_status
+2024-04-18 09:04:30,522 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-18 09:04:30,902 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:04:31,205 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:32,092 DEBUG   SenderThread:19717 [sender.py:send():379] send: exit
+2024-04-18 09:04:32,092 INFO    SenderThread:19717 [sender.py:send_exit():586] handling exit code: 255
+2024-04-18 09:04:32,093 INFO    SenderThread:19717 [sender.py:send_exit():588] handling runtime: 220
+2024-04-18 09:04:32,094 INFO    SenderThread:19717 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-18 09:04:32,095 INFO    SenderThread:19717 [sender.py:send_exit():594] send defer
+2024-04-18 09:04:32,095 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 09:04:32,096 INFO    HandlerThread:19717 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-18 09:04:32,096 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: defer
+2024-04-18 09:04:32,096 INFO    SenderThread:19717 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-18 09:04:32,096 INFO    SenderThread:19717 [sender.py:transition_state():614] send defer: 1
+2024-04-18 09:04:32,096 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 09:04:32,097 INFO    HandlerThread:19717 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-18 09:04:32,097 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: defer
+2024-04-18 09:04:32,097 INFO    SenderThread:19717 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-18 09:04:32,097 INFO    SenderThread:19717 [sender.py:transition_state():614] send defer: 2
+2024-04-18 09:04:32,097 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 09:04:32,097 INFO    HandlerThread:19717 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-18 09:04:32,098 INFO    HandlerThread:19717 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-18 09:04:32,098 DEBUG   SystemMonitor:19717 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-18 09:04:32,098 DEBUG   SystemMonitor:19717 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-18 09:04:32,100 INFO    HandlerThread:19717 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-18 09:04:32,101 INFO    HandlerThread:19717 [interfaces.py:finish():202] Joined disk monitor
+2024-04-18 09:04:32,205 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/wandb-summary.json
+2024-04-18 09:04:33,206 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:34,180 INFO    HandlerThread:19717 [interfaces.py:finish():202] Joined gpu monitor
+2024-04-18 09:04:34,180 INFO    HandlerThread:19717 [interfaces.py:finish():202] Joined memory monitor
+2024-04-18 09:04:34,181 INFO    HandlerThread:19717 [interfaces.py:finish():202] Joined network monitor
+2024-04-18 09:04:34,181 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-18 09:04:34,181 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: defer
+2024-04-18 09:04:34,182 INFO    SenderThread:19717 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-18 09:04:34,182 INFO    SenderThread:19717 [sender.py:transition_state():614] send defer: 3
+2024-04-18 09:04:34,182 DEBUG   SenderThread:19717 [sender.py:send():379] send: stats
+2024-04-18 09:04:34,183 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: poll_exit
+2024-04-18 09:04:34,183 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 09:04:34,184 INFO    HandlerThread:19717 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-18 09:04:34,184 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: defer
+2024-04-18 09:04:34,184 INFO    SenderThread:19717 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-18 09:04:34,184 INFO    SenderThread:19717 [sender.py:transition_state():614] send defer: 4
+2024-04-18 09:04:34,184 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 09:04:34,184 INFO    HandlerThread:19717 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-18 09:04:34,185 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: defer
+2024-04-18 09:04:34,185 INFO    SenderThread:19717 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-18 09:04:34,185 INFO    SenderThread:19717 [sender.py:transition_state():614] send defer: 5
+2024-04-18 09:04:34,185 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 09:04:34,185 INFO    HandlerThread:19717 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-18 09:04:34,186 DEBUG   SenderThread:19717 [sender.py:send():379] send: summary
+2024-04-18 09:04:34,186 INFO    SenderThread:19717 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-18 09:04:34,187 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: defer
+2024-04-18 09:04:34,187 INFO    SenderThread:19717 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-18 09:04:34,187 INFO    SenderThread:19717 [sender.py:transition_state():614] send defer: 6
+2024-04-18 09:04:34,187 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 09:04:34,187 INFO    HandlerThread:19717 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-18 09:04:34,188 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: defer
+2024-04-18 09:04:34,188 INFO    SenderThread:19717 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-18 09:04:34,188 INFO    SenderThread:19717 [sender.py:transition_state():614] send defer: 7
+2024-04-18 09:04:34,188 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: status_report
+2024-04-18 09:04:34,188 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: defer
+2024-04-18 09:04:34,188 INFO    HandlerThread:19717 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-18 09:04:34,189 DEBUG   SenderThread:19717 [sender.py:send_request():406] send_request: defer
+2024-04-18 09:04:34,189 INFO    SenderThread:19717 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-18 09:04:34,207 INFO    Thread-12 :19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/wandb-summary.json
+2024-04-18 09:04:34,827 WARNING StreamThr :19717 [internal.py:is_dead():414] Internal process exiting, parent pid 1497 disappeared
+2024-04-18 09:04:34,827 ERROR   StreamThr :19717 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-04-18 09:04:35,097 DEBUG   HandlerThread:19717 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-18 09:04:35,097 INFO    HandlerThread:19717 [handler.py:finish():866] shutting down handler
+2024-04-18 09:04:35,098 INFO    WriterThread:19717 [datastore.py:close():296] close: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/run-9fpi7jpq.wandb
+2024-04-18 09:04:36,567 INFO    SenderThread:19717 [sender.py:transition_state():614] send defer: 8
+2024-04-18 09:04:36,567 INFO    SenderThread:19717 [sender.py:finish():1546] shutting down sender
+2024-04-18 09:04:36,567 INFO    SenderThread:19717 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-18 09:04:37,208 INFO    SenderThread:19717 [dir_watcher.py:_on_file_modified():288] file/dir modified: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:37,209 INFO    SenderThread:19717 [dir_watcher.py:finish():388] scan: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files
+2024-04-18 09:04:37,209 INFO    SenderThread:19717 [dir_watcher.py:finish():402] scan save: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/config.yaml config.yaml
+2024-04-18 09:04:37,210 INFO    SenderThread:19717 [dir_watcher.py:finish():402] scan save: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log output.log
+2024-04-18 09:04:37,215 INFO    SenderThread:19717 [dir_watcher.py:finish():402] scan save: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/conda-environment.yaml conda-environment.yaml
+2024-04-18 09:04:37,220 INFO    SenderThread:19717 [dir_watcher.py:finish():402] scan save: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/wandb-metadata.json wandb-metadata.json
+2024-04-18 09:04:37,221 INFO    SenderThread:19717 [dir_watcher.py:finish():402] scan save: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/wandb-summary.json wandb-summary.json
+2024-04-18 09:04:37,222 INFO    SenderThread:19717 [dir_watcher.py:finish():402] scan save: /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/requirements.txt requirements.txt
+2024-04-18 09:04:37,228 INFO    SenderThread:19717 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-18 09:04:37,228 INFO    SenderThread:19717 [file_pusher.py:join():178] waiting for file pusher
+2024-04-18 09:04:37,853 INFO    wandb-upload_0:19717 [upload_job.py:push():131] Uploaded file /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/config.yaml
+2024-04-18 09:04:38,159 INFO    wandb-upload_3:19717 [upload_job.py:push():131] Uploaded file /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/requirements.txt
+2024-04-18 09:04:38,173 INFO    wandb-upload_2:19717 [upload_job.py:push():131] Uploaded file /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/wandb-summary.json
+2024-04-18 09:04:38,188 INFO    wandb-upload_1:19717 [upload_job.py:push():131] Uploaded file /aia/peilei/graduation-focus/paper_code/SSR_BMVC2022/wandb/run-20240418_090049-9fpi7jpq/files/output.log
+2024-04-18 09:04:38,731 INFO    SenderThread:19717 [file_stream.py:finish():614] file stream finish called
+2024-04-18 09:04:39,547 INFO    SenderThread:19717 [file_stream.py:finish():618] file stream finish is done
